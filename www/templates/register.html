@@ -1,0 +1,31 @@
+<div ng-controller="RegisterCtrl">
+	<ion-view view-title="Register">
+	  <ion-content class="Register">
+
+	  	<h1>My First App</h1>
+
+	    <div class="list">
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Username</span>
+		    <input type="text" ng-model="userR.Username" placeholder="Username">
+		  </label>
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Email</span>
+		    <input type="Email" ng-model="userR.Email" placeholder="Email">
+		  </label>
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Password</span>
+		    <input type="password" ng-model="userR.Password" placeholder="Password">
+		  </label>
+		</div>
+
+		<button ng-click="Obtener(userR)" class="button button-outline button-light">
+		  Register
+		</button>
+		<button class="button button-clear button-light" ui-sref = "login">
+		  <span ui-sref = "login">I already have an account</span>
+		</button>
+
+	  </ion-content>
+	</ion-view>
+</div>
