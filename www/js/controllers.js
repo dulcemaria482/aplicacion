@@ -41,7 +41,35 @@
   }
 })
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope) {
+  $rootScope.categorias=[
+  {
+    nombrecategoria: "Linea Blanca",
+    imagen:"img/LB.jpg"
+  },
+   {
+    nombrecategoria: "Video Juegos",
+    imagen:"img/LB.jpg"
+  },
+   {
+    nombrecategoria: "Linea Blanca",
+    imagen:"img/LB.jpg"
+  },
+   {
+    nombrecategoria: "Linea Blanca",
+    imagen:"img/LB.jpg"
+  },
+   {
+    nombrecategoria: "Linea Blanca",
+    imagen:"img/LB.jpg"
+  },
+   {
+    nombrecategoria: "Linea Blanca",
+    imagen:"img/LB.jpg"
+  }
+
+  ]
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
